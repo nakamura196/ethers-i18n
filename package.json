@@ -1,0 +1,22 @@
+{
+  "name": "ethers-i18n",
+  "version": "0.1.0",
+  "description": "Internationalization plugin for ethers.js error messages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "ethers": "^6.13.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": ["ethereum", "ethers", "i18n", "internationalization", "japanese", "korean", "chinese"],
+  "license": "MIT"
+}
